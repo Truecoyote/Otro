@@ -6,10 +6,10 @@ var Abilities = require('./Abilities');
 var Main = React.createClass({
   getInitialState: function(){
     return {
-      name: 'Eloy Espinaca',
+      name: 'Pepe',
       levels: [1,2,3,4,5,6],
-      text: 'Cdo te comés a E. Espinaca: NO aumentás tu fuerza, y probablemente seas un zombie o uno de esos degenerado que le prometieron comer su cadáver',
-      abilities: [2,1,0,1]
+      text: 'Pepe se tira pepes. No seas como Pepe.',
+      abilities: [1,4,1,0]
     }
   },
   render: function(){
